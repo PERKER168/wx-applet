@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/details/details"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2C6B4E",
+    "navigationBarTitleText": "星巴克用星说",
+    "navigationBarTextStyle":"white"
+  }
+}

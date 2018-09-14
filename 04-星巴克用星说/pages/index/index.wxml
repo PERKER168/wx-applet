@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<view class='banner'>
+  <image src='../../images/static/swiper/banner01.jpg'></image>
+</view>
+
+<!-- 卡片 -->
+<view class='choosedCard'>
+  <view class='title'>请朋友喝咖啡</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card01.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card02.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+</view>
+
+<!-- 卡片 -->
+<view class='choosedCard'>
+  <view class='title'>请朋友喝咖啡</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card03.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+    <view class='cardChild' bindtap='toDetails'>
+      <image src='../../images/static/card/card04.jpg'></image>
+      <view class='cardName'>爱要大声说出来</view>
+    </view>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card05.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card06.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card07.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+    <view class='cardChild'>
+      <image src='../../images/static/card/card08.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+</view>
+
+<view class='history'>
+  <i class="iconfont icon-clock"></i>
+  购买历史
+</view>
+
+<view class='info'>可以在星巴克中国公众号选购礼品卡</view>

@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "家居电商",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#515151",
+    "selectedColor":"#1296db",
+    "backgroundColor":"#f0f0f0",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "家居电商",
+      "iconPath": "./images/icon/icon-home.png",
+      "selectedIconPath": "./images/icon/icon-home-s.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "./images/icon/icon-car.png",
+      "selectedIconPath": "./images/icon/icon-car-s.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "./images/icon/icon-user.png",
+      "selectedIconPath": "./images/icon/icon-user-s.png"
+    }]
+  }
+}

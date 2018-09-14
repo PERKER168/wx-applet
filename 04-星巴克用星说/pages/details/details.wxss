@@ -1,0 +1,140 @@
+/* pages/details/details.wxss */
+
+@import "../../utils/font/iconfont.wxss";
+
+.topDiv{
+  width: 100%;
+  background-color: #fff;
+}
+
+.topDiv-in,.downDiv-in{
+  width: 92%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bigImg{
+  margin-top: 20rpx;
+}
+
+.bigImg,.bigImg image{
+  width: 100%;
+  height: 400rpx;
+  border-radius: 10rpx;
+}
+
+.chooseCard{
+  margin-top: 20rpx;
+}
+
+.present{
+  margin-top: 0rpx;
+}
+
+.present .card{
+  border-bottom: 0;
+  padding-bottom: 20rpx;
+}
+
+.chooseCard .title{
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #2b2b2b;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.cardOne{
+  width: 30%;
+  height: 140rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  text-align: center;
+  border: 4rpx solid #fff;
+}
+
+.cardOne.active,.present .cardOne.active{
+  border: 4rpx solid green;
+}
+
+.present .cardOne{
+  border: 4rpx solid #ccc;
+}
+
+.cardOne image{
+  width: 100%;
+  height: 140rpx;
+}
+
+.cardOne .price{
+  margin-top: 20rpx;
+  font-size: 40rpx;
+}
+
+.cardOne .word{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.downDiv{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 120rpx;
+}
+
+.line{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.line-l{
+  float: left;
+  width: 20%;
+  color: #000;
+  font-weight: bold;
+}
+
+.line-r{
+  float: right;
+  width: 76%;
+}
+
+.line3{
+  height: auto;
+  overflow: hidden;
+}
+
+.line3 .line-r{
+  line-height: 50rpx;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.line1 .line-r,.line4 .line-r{
+  color: blue;
+}
+
+.btn{
+  width: 100%;
+  height: 120rpx;
+  border-top: 1rpx solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.btn button{
+  margin-top: 10rpx;
+  width: 96%;
+
+}
